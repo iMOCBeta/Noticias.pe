@@ -1,0 +1,535 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+	 <meta name="author" content="mendoza oviedo maycol nay ">
+<meta name="description" content="redsocial">
+	<title>iMOC</title>
+	<link href="https://thumb.ibb.co/dR68oK/logo.png" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" href="TRES DOS UNI.css">
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Mira las ultimas tendencias de la tecnologia y el  mundo del software." />
+	<meta name="keywords" content="Mundo del software" />
+	<meta name="author" content="Maycol Nay Mo" />
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="iMOC Noticias"/>
+	<meta property="og:image" content="https://thumb.ibb.co/dR68oK/logo.png"/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content="Mira las ultimas tendencias de la tecnologia y el  mundo del software."/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body onload="disableRightClick()">
+
+
+
+  
+
+
+<!-- código HTMl botón subir (top) subir arribaa-->
+<a href="index.html" id="subir" class="boton-subir">
+
+  <i><img  class="ir" src="iMOC.png" alt="" width="50" height="50"></i>
+</a>
+<!---script para que funcione arriba -->
+
+<!-- script para que funcione al 100% el botón ir arriba -->
+<script>
+//invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
+$(window).scroll(function(){
+  if($(this).scrollTop() > 0){ //condición a cumplirse cuando el usuario aya bajado 301px a más.
+    $("#subir").slideDown(300); //se muestra el botón en 300 mili segundos
+  }else{ // si no
+    $("#subir").slideUp(300); //se oculta el botón en 300 mili segundos
+  }
+});
+
+//creamos una función accediendo a la etiqueta i en su evento click
+$("#subir i").on('click', function (e) { 
+  e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
+  $("body,html").animate({ 
+    scrollTop: '0px' //al colocar el valor 0 a scrollTop me volverá a la parte inicial de la página
+  },700); //el valor 700 indica que lo ara en 700 mili segundos
+  return false; //rompe el bucle
+});
+</script>
+
+<!---fin de script para que funcione arriba-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Header -->
+	<header id="header">
+	<h1 class="tinder"><font color="#ffffff"><a href="index.html" title="iMOC"><i>iMOC</i></a></font></h1>
+<!--seleciones de opciones-->
+<div class="select" >
+<select  name="formal"  onchange="javascript:handleSelect(this)" title="Ordenar segun:">
+<option value="index"> no esta disponible </option>
+<!---
+<option value="index"> no esta disponible</option>
+<option value="index"> no esta disponible</option>
+<option value="index"> no esta disponible</option>
+<option value="index"> no esta disponible </option>
+------>
+</select>
+</div>
+<!--fin de las seleciones de opciones-->
+	<nav class="main">
+      <ul>
+        <li></li>
+      </ul>
+    </nav>
+    </header>
+<br class="brclass1">
+<center>
+<div class="parte">
+<main class="keisha">
+ <section class="photoMO">              
+ <div class="initial">
+
+<span class="photo__icon"></span>
+
+<span class="photo__icon">
+ <a href="index.html" title="Inicio" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/eDKToK/1.png"/><p  class="dein">Inicio</p></a> </span>
+ <span class="photo__icon">
+ <a href="index.html" title="Tareas" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/g8NETK/ai.png"/><p style="border-bottom: medium solid #EC7063;" class="dein">Noticias</p></a> </span>
+ <span class="photo__icon">
+ <a href="seccion2/index.html" title="Eventos" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/mS3che/computer.png"/><p class="dein">Blog </p></a> </span>
+ <span class="photo__icon">
+ <a href="libroslite.html" title="Inicio" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/cLkevz/pdf.png"/><p class="dein">LibrosLite</p></a> </span>
+ <span class="photo__icon">
+ <a href="index.html" title="Fotos" class="sec_noticias" ><img class="imgparte1" src="https://thumb.ibb.co/jNpiNe/headphones.png" alt="headphones" border="0"><p class="dein">Musica</p></a> </span>
+ <span class="photo__icon">
+ <a href="videos/videos.html" title="Clima" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/h7w8oK/youtube.png"/><p class="dein">Video</p></a> </span>
+ <span class="photo__icon">
+ <a href="index.html" title="MusicaLite" class="sec_noticias" ><img class="imgparte1" src="https://thumb.ibb.co/e3bxhe/plant.png" alt="business_partnership" border="0"><p class="dein">TuDoctor</p></a> </span>
+ <span class="photo__icon">
+ <a href="mensajescelebre/index.html" title="Inicio" class="sec_noticias" ><img  class="imgparte1" src="https://thumb.ibb.co/fX2g8K/checklist.png"/><p class="dein">Célebres</p></a> </span>
+ <span class="photo__icon">
+ <a href="encuesta.html" title="PeliculasLite" class="sec_noticias" ><img  class="imgparte1"src="https://thumb.ibb.co/i2iA2e/tag.png"/><p class="dein">Calificación</p></a> </span>
+  <span class="photo__icon">
+ <a href="eco.html" title="LibrosLite"  class="sec_noticias"><img  class="imgparte1" src="https://image.ibb.co/kkMr8K/ai.png"/><p class="dein">iMOC Bot</p></a></span>
+ 
+                    </div>           
+            </section>
+        </main>
+    </div></center>
+
+
+<!-- código HTMl botón subir (top)-->
+<a href="#" id="js_up" class="boton-subir">
+
+  <i ><img  class="ir" src="iMOC.png" alt="" width="70" height="70"></i>
+</a>
+<!---script para que funcione arriba -->
+
+<!-- script para que funcione al 100% el botón ir arriba -->
+<script>
+//invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
+$(window).scroll(function(){
+  if($(this).scrollTop() > 300){ //condición a cumplirse cuando el usuario aya bajado 301px a más.
+    $("#js_up").slideDown(300); //se muestra el botón en 300 mili segundos
+  }else{ // si no
+    $("#js_up").slideUp(300); //se oculta el botón en 300 mili segundos
+  }
+});
+
+//creamos una función accediendo a la etiqueta i en su evento click
+$("#js_up i").on('click', function (e) { 
+  e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
+  $("body,html").animate({ // aplicamos la función animate a los tags body y html
+    scrollTop: 0 //al colocar el valor 0 a scrollTop me volverá a la parte inicial de la página
+  },700); //el valor 700 indica que lo ara en 700 mili segundos
+  return false; //rompe el bucle
+});
+</script>
+
+<!---fin de script para que funcione arriba-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+	<div id="colorlib-container">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="programador.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/equipoprod.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/equipoprod.html">¿Cómo conseguir un equipo más productivo?</a></h2>
+								<p>El software cada vez toma más peso en todas las industrias y la forma de construir ese software ha cambiado mucho en los últimos años.... </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="samsum.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/sam.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/sam.html">
+									Samsung ofrece cursos online GRATIS 
+								</a></h2>
+								<p>Samsung , en alianza con el LSI-TEC (Laboratório de Sistemas Integráveis Tecnológico) de la USP-Brasil, abrió ......</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-slider">
+								<div class="owl-carousel">
+									<div class="item">
+										<a href="blog.html" class="image-popup-link"><img src="att.png" height="30px" class="img-responsive" alt="html5 bootstrap template"></a>
+									</div>
+									<div class="item">
+										<a href="blog.html" class="image-popup-link"><img src="ibm.png" class="img-responsive" alt="html5 bootstrap template"></a>
+									</div>
+								</div>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/ibm.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/ibm.html">IBM y AT&T : soluciones IoT desde la nube</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-pb-md">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="https://image.ibb.co/bU0O8K/wa.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/wass.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/wass.html">¿Por qué hacer copia de seguridad de WhatsApp antes del 12 de noviembre?</a></h2>
+								<p>WhatsApp anunció que las copias de seguridad de los mensajes dejarán ..... </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="zte.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/zte.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/zte.html">ZTE publica la primera imagen del nuevo Axon 9 Pro</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="https://image.ibb.co/mfTMvz/go.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="
+https://imocbeta-bot.github.io/.pe/arcode.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="
+https://imocbeta-bot.github.io/.pe/arcode.html">Google acaba de hacer compatibles a estos dispositivos con su realidad aumentada</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-8">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<div class="video colorlib-video" style="background-image: url(ia.jpg);">
+										
+
+									<i class="icon-play">
+
+									</i>
+									
+									<div class="overlay"></div>
+								</div>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/ia.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/ia.html">Un robot con inteligencia artificial presentará un noticiero en la TV china</a></h2>
+								<p> </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="fa.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/aloha.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/aloha.html">Nuevos detalles sobre Aloha, el Google Assistant de Facebook</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-pb-md">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="https://image.ibb.co/eisH2e/a.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/apple.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/apple.html">Apple venderá Mac de bajo costo para reactivar sus ventas</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="pt.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+								<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/proj.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/proj.html">Project Treble ayuda a que los parches de seguridad lleguen antes a tu móvil</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="webhoos.png" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/webbhostt.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/webbhostt.html">Creación de una webhooks</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="diaflow.png" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="https://imocbeta-bot.github.io/.pe/dialflow.html">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="#"></a></span>
+								</p>
+								<h2><a href="https://imocbeta-bot.github.io/.pe/dialflow.html">Hoy hablamos acerca de DialogFlow</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="blog.html"><img src="botmss.png" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+								<span class="cat"><a href="https://imocbeta.github.io/-SNoticias-/">Leer</a></span>
+									<span class="date">23 de Agosto 2018</span>
+									<span class="pos"> <a href="https://imocbeta.github.io/-SNoticias-/"></a></span>
+								</p>
+								<h2><a href="blog.html">Crea un Bot para tu negocio en messenger</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!---------
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<ul class="pagination">
+							<li class="disabled"><a href="#">&laquo;</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+					</div>
+				</div>
+				----------->
+			</div>
+		</div>
+<!--
+		<div id="colorlib-instagram">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 colorlib-heading text-center">
+					<h2>Instagram</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="instagram-entry">
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-1.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-2.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-3.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-4.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-5.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-6.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-7.jpg);">
+					</a>
+					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-8.jpg);">
+					</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+
+	------>
+
+</center>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
